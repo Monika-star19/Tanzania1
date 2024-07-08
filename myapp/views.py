@@ -37,5 +37,11 @@ def top10(request):
 def guidelines(request):
     return render(request, 'guidelines.html')
 
+def artandcraft(request):
+    return render(request, 'artandcraft.html')
+
+def wildlifeandnature(request):
+    return render(request, 'wildlifeandnature.html')
+
 
 

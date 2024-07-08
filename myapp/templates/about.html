@@ -87,17 +87,60 @@
       </p>
     </div>
     <div class="responsive-container-block rightSide">
-      <img class="number1img" src="{% static '/assets/img/random.webp' %}">
+      <img class="number1img" src="{% static '/assets/img/cutecheetah.webp' %}">
       <img class="number2img" src="{% static '/assets/img/city.webp' %}">
       <img class="number3img" src="{% static '/assets/img/RuahaNationalPark.webp' %}">
-      <img class="number5img" src="{% static '/assets/img/SelousGameReserve.webp' %}">
 
-      <img class="number7img" src="{% static '/assets/img/ugalifood.webp' %}">
+      <img class="number7img" src="{% static '/assets/img/elephant.webp' %}">
       <img class="number6img" src="{% static '/assets/img/zebras.webp' %}">
     </div>
   </div>
 </div>
   </main>
+  <section id="contact" class="contact section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 mt-1">
+
+          <div>
+            <h3 align="center">For More Information</h3>
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
 
   <footer id="footer" class="footer">
 
@@ -129,10 +172,10 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful links</h4>
           <ul>
-            <li><a href="#">Travel Guide</a></li>
-            <li><a href="#">Invest</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/travelguide/">Travel Guide</a></li>
+            <li><a href="invest/">Invest</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
           </ul>
         </div>
 

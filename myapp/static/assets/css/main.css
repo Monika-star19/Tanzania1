@@ -273,7 +273,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: var(--nav-dropdown-color);
+    color: #00A3DD;
     padding: 10px 20px;
     font-family: var(--nav-font);
     font-size: 17px;
@@ -309,7 +309,7 @@ h6 {
   .navmenu a:hover,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-dropdown-hover-color);
+    color: #00A3DD;
   }
 
   .navmenu .active i,
@@ -709,13 +709,18 @@ section,
   padding: 140px 0 60px 0;
 }
 
-@media (max-width: 768px),
-(max-height: 480px) {
+
+@media (max-width: 767.98px) {
+  .hero {
+    padding: 20px 0;
+  }
   .hero .info {
-    padding: 100px 50px 60px 50px;
+    padding: 0 15px;
+  }
+  .hero .carousel-inner {
+    max-height: 300px; /* Adjust based on your preference */
   }
 }
-
 .hero .info h2 {
   margin-bottom: 30px;
   padding-bottom: 30px;
@@ -808,7 +813,12 @@ section,
   .hero .carousel-control-prev {
     padding-left: 15px;
   }
+  .carousel{
+  height:100px;
+  }
 }
+
+
 
 .hero .carousel-control-next {
   justify-content: end;
@@ -3290,11 +3300,11 @@ h1 {
 
 .number1img {
   margin-top: 39%;
-  margin-right: 80%;
+  margin-right: 70%;
   margin-bottom: 29%;
-  margin-left: 0px;
+  margin-left: 20px;
   height: 32%;
-  width: 25%;
+  width: 30%;
   position: absolute;
 }
 
@@ -3341,12 +3351,12 @@ h1 {
 
 .number7img {
   position: absolute;
-  width: 30%;
+  width: 40%;
   margin-top: 40%;
-  margin-right: 0px;
+  margin-right: 10px;
   margin-bottom: 18%;
-  margin-left: 75%;
-  height: 42%;
+  margin-left: 60%;
+  height: 45%;
 }
 
 .text-blk.subHeading {
@@ -3398,27 +3408,27 @@ h1 {
 
 @media (max-width: 500px) {
   .number1img {
-    display: none;
+    display: ;
   }
 
   .number2img {
-    display: none;
+    display: ;
   }
 
   .number3img {
-    display: none;
+    display: ;
   }
 
   .number5img {
-    display: none;
+    display: ;
   }
 
   .number6img {
-    display: none;
+    display: ;
   }
 
   .number7img {
-    display: none;
+    display: ;
   }
 
   .responsive-container-block.rightSide {
@@ -3456,4 +3466,36 @@ h1 {
     width: 100%;
   }
 }
+
+
+.places-to-visit ul {
+    list-style: none;
+    padding: 0;
+}
+
+.places-to-visit li {
+    margin-bottom: 20px;
+}
+
+.places-to-visit .content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.places-to-visit .text {
+    flex: 1;
+}
+
+.places-to-visit .image {
+    flex: 1;
+}
+
+.places-to-visit .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
 

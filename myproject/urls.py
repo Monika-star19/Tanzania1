@@ -35,8 +35,10 @@ urlpatterns = [
     path('art/',views.art),
     path('wildlife/',views.wildlife),
     path('top10/',views.top10),
-   path('guidelines/',views.guidelines),
+    path('guidelines/',views.guidelines),
+    path('artandcraft/',views.artandcraft),
+    path('wildlifeandnature/', views.wildlifeandnature),
 
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+              ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 

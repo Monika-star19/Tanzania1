@@ -66,44 +66,48 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section">
+<!--    <section id="hero" class="hero section">-->
+<video class="d-block w-100" controls autoplay loop muted>-->
+      <source src="{% static '/assets/img/videobanner.mp4' %}" type="video/mp4">
+</video>
 
-      <div class="info d-flex align-items-center">
-        <div class="container">
-          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-8 text-center">
-              <h2>The Soul of Africa</h2>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+<!--     <div class="info d-flex align-items-center">-->
+<!--        <div class="container">-->
+<!--          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">-->
+<!--            <div class="col-lg-8 text-center">-->
+<!--              <h2>The Soul of Africa</h2>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">-->
 
   <!-- Video Carousel Items -->
 
-  <div>
-    <video class="d-block w-100" controls autoplay loop muted>
-      <source src="{% static '/assets/img/videobanner.mp4' %}" type="video/mp4">
-      <!-- Add additional source elements for different video formats if needed -->
-      Your browser does not support the video tag.
-    </video>
-  </div>
+<!--  <div>-->
+<!--    <video class="d-block w-100" controls autoplay loop muted>-->
+<!--      <source src="{% static '/assets/img/videobanner.mp4' %}" type="video/mp4">-->
+<!--      &lt;!&ndash; Add additional source elements for different video formats if needed &ndash;&gt;-->
+<!--      Your browser does not support the video tag.-->
+<!--    </video>-->
+<!--  </div>-->
 
   <!-- Navigation Controls -->
 
-</div>
+</div><br><br>
 
-    </section><br><br><br><br><br><!-- /Hero Section -->
-
+    </section><!-- /Hero Section -->
+<span style="margin-bottom:100px; margin-top:100px"></span>
     <section class="about-section section-padding" id="section_2">
             <div class="container">
                 <div class="row">
 
-                    <div class="  align-items-center">
+                    <div class="align-items-center">
                         <div class="services-info">
-                            <h2 class="text-black mb-4" align="center">Explore Tanzania</h2>
-                            <p class="text-black" align="center">Welcome to Tanzania, land of vast savannahs and towering mountains.<br> Experience the thrill of safari in the Serengeti, where lions roam <br>and wildebeest migrate. Dive into the crystal-clear waters of Zanzibar's pristine beaches.<br> Explore the cultural tapestry of Stone Town's narrow streets and spice markets.<br> From Mount Kilimanjaro's snow-capped peaks to the colorful depths of Lake Tanganyika, <br>Tanzania beckons with natural wonders and warm hospitality. Karibu sana - welcome to Tanzania!
+                            <h2 class="text-black mb-4" align="center">The Soul Of Africa</h2>
+                            <p class="text-black" align="center">Welcome to Tanzania, land of vast savannahs<br> and towering mountains. Experience the thrill of safari in the Serengeti, where lions roam and wildebeest<br> migrate. Dive into the crystal-clear waters of Zanzibar's pristine beaches. Explore the cultural tapestry of Stone <br>Town's narrow streets and spice markets. From Mount<br> Kilimanjaro's snow-capped peaks to the colorful depths of Lake Tanganyika, Tanzania beckons with natural wonders and warm hospitality. Karibu sana - welcome to Tanzania!
 </p>
                         </div>
                     </div>
@@ -118,15 +122,15 @@
             <div class="container">
                 <div class="row justify-content-center">
 
-                    <div class="col-12 text-center">
-                        <h2 class="mb-4">Explore </h1>
+                    <div class="col-12 text-center" >
+                        <h2 class="mb-4"> Explore </h1>
                       </div>
 
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="{% static 'assets/img/gallery5.webp' %}"
-                                    class="artists-image img-fluid">
+                               <a href="/place/" ><img src="{% static 'assets/img/gallery5.webp' %}"
+                                                       class="artists-image img-fluid"></a>
                             </div>
 
                             <div class="artists-hover">
@@ -140,8 +144,8 @@
                     <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="{% static 'assets/img/2.webp' %}"
-                                    class="artists-image img-fluid">
+                               <a href="/culture/"> <img src="{% static 'assets/img/2.webp' %}"
+                                    class="artists-image img-fluid"></a>
                             </div>
 
                             <div class="artists-hover">
@@ -155,8 +159,8 @@
                      <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="{% static 'assets/img/art.webp' %}"
-                                    class="artists-image img-fluid">
+                            <a href="/art/"><img src="{% static 'assets/img/art.webp' %}"
+                                                 class="artists-image img-fluid"></a>
                             </div>
 
                             <div class="artists-hover">
@@ -171,8 +175,8 @@
                      <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="{% static 'assets/img/giraffe.webp' %}"
-                                    class="artists-image img-fluid">
+                              <a href="/wildlife/">  <img src="{% static 'assets/img/giraffe.webp' %}"
+                                                          class="artists-image img-fluid"></a>
                             </div>
 
                             <div class="artists-hover">
@@ -186,8 +190,8 @@
  <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="{% static 'assets/img/food.webp' %}"
-                                    class="artists-image img-fluid">
+                              <a href="/food/">  <img src="{% static 'assets/img/food.webp' %}"
+                                                      class="artists-image img-fluid"></a>
                             </div>
 
                             <div class="artists-hover">
@@ -201,8 +205,8 @@
  <div class="col-lg-5 col-12">
                         <div class="artists-thumb">
                             <div class="artists-image-wrap">
-                                <img src="{% static 'assets/img/invest.webp' %}"
-                                    class="artists-image img-fluid">
+                             <a href="/invest/">   <img src="{% static 'assets/img/invest.webp' %}"
+                                                        class="artists-image img-fluid"></a>
                             </div>
 
                             <div class="artists-hover">
@@ -227,7 +231,7 @@
                     <div class="  align-items-center">
                         <div class="services-info">
                             <h2 class="text-black mb-4" align="center">Explore Africa</h2>
-                            <p class="text-black" align="center">Welcome to Tanzania, land of vast savannahs and towering mountains.<br> Experience the thrill of safari in the Serengeti, where lions roam <br>and wildebeest migrate. Dive into the crystal-clear waters of Zanzibar's pristine beaches.<br> Explore the cultural tapestry of Stone Town's narrow streets and spice markets.<br> From Mount Kilimanjaro's snow-capped peaks to the colorful depths of Lake Tanganyika, <br>Tanzania beckons with natural wonders and warm hospitality. Karibu sana - welcome to Tanzania!
+                            <p class="text-black" align="center">Welcome to Tanzania, land of vast savannahs and towering mountains. Experience the thrill of safari <br>in the Serengeti, where lions roam and wildebeest migrate. Dive into the crystal-clear waters of Zanzibar's <br>pristine beaches.Explore the cultural tapestry of Stone Town's narrow streets and spice markets. From Mount <br>Kilimanjaro's snow-capped peaks to the colorful depths of Lake Tanganyika, Tanzania beckons with natural wonders and warm hospitality. Karibu sana - welcome to Tanzania!
 </p>
                         </div>
                     </div>
@@ -251,13 +255,18 @@
 
   <section>
         <div class="scroll-container">
-  <img src="{% static '/assets/img/random.webp' %}" alt="Cinque Terre" width="300" height="200">
-  <img src="{% static '/assets/img/random2.webp' %}" alt="Forest" width="300" height="200">
-  <img src="{% static '/assets/img/randomlake.webp' %}" alt="Northern Lights" width="300" height="200">
-  <img src="{% static '/assets/img/lion.webp' %}" alt="Mountains" width="300" height="200">
+  <img src="{% static '/assets/img/babyelephant.webp' %}" alt="Cinque Terre" width="300" height="200">
+  <img src="{% static '/assets/img/birdanimal.webp' %}" alt="Forest" width="300" height="200">
+  <img src="{% static '/assets/img/bluebird.webp' %}" alt="Northern Lights" width="300" height="200">
+  <img src="{% static '/assets/img/hiran.webp' %}" alt="Mountains" width="300" height="200">
+     <img src="{% static '/assets/img/cutecheetah.webp' %}" alt="Mountains" width="300" height="200">
+       <img src="{% static '/assets/img/lioness.webp' %}" alt="Mountains" width="300" height="200">
      <img src="{% static '/assets/img/zebras.webp' %}" alt="Mountains" width="300" height="200">
-       <img src="{% static '/assets/img/gallery6.webp' %}" alt="Mountains" width="300" height="200">
-     <img src="{% static '/assets/img/gallery7.webp' %}" alt="Mountains" width="300" height="200">
+          <img src="{% static '/assets/img/SelousGameReserve.webp' %}" alt="Mountains" width="300" height="200">
+              <img src="{% static '/assets/img/beach.webp' %}" alt="Mountains" width="300" height="200">
+             <img src="{% static '/assets/img/elephant.webp' %}" alt="Mountains" width="300" height="200">
+          <img src="{% static '/assets/img/gallery5.webp' %}" alt="Mountains" width="300" height="200">
+            <img src="{% static '/assets/img/mafiabeach.webp' %}" alt="Mountains" width="300" height="200">
 
 </div>
 
@@ -294,10 +303,10 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful links</h4>
           <ul>
-            <li><a href="#">Travel Guide</a></li>
-            <li><a href="#">Invest</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="/travelguide/">Travel Guide</a></li>
+            <li><a href="invest/">Invest</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
           </ul>
         </div>
 
