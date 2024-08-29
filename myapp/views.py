@@ -43,5 +43,7 @@ def artandcraft(request):
 def wildlifeandnature(request):
     return render(request, 'wildlifeandnature.html')
 
+def investment(request):
+    return render(request, 'investment.html')
 
 

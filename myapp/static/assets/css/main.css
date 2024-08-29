@@ -1362,12 +1362,12 @@ section,
 }
 
 .projects .portfolio-content .portfolio-info h4 {
-  font-size: 14px;
-  padding: 5px 10px;
+  font-size: 15px;
+  padding: 70px 120px ;
   font-weight: 400;
   color: #ffffff;
   display: inline-block;
-  background-color: var(--accent-color);
+  background-color: transparent;
 }
 
 .projects .portfolio-content .portfolio-info p {
@@ -2874,8 +2874,15 @@ section,
    background-image: url('../img/tanzaniamap.png');
   background-color: white;
   background-repeat: no-repeat;
-  background-size: ;
   background-position: center;
+}
+
+.about-section .container {
+    padding: 60px 0; /* Adjust as needed */
+}
+
+.about-section .row {
+    margin: 0;
 }
 
 .about-image {
@@ -3071,6 +3078,7 @@ div.scroll-container img {
   margin: 20px;
   padding: 35px;
 }
+
 
 .content {
     background-color: #fff;

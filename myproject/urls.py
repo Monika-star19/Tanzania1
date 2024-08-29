@@ -38,6 +38,7 @@ urlpatterns = [
     path('guidelines/',views.guidelines),
     path('artandcraft/',views.artandcraft),
     path('wildlifeandnature/', views.wildlifeandnature),
+    path('investment/', views.investment),
 
               ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 

@@ -43,7 +43,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="/" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">logo</h1>
@@ -75,27 +75,27 @@
     </div><!-- End Page Title -->
 
     <!-- Projects Section -->
-    <div class="responsive-container-block bigContainer">
-  <div class="responsive-container-block Container">
-    <div class="responsive-container-block leftSide">
-      <p class="text-blk heading">
-         Land of Wonders and Warmth
-      </p>
-      <p class="text-blk subHeading">
-        Tanzania offers unparalleled natural wonders. Explore the unique Ngorongoro Crater, a wildlife haven, and the spice-laden island of Zanzibar, with its pristine beaches and historic Stone Town. Immerse yourself in the  traditions of over 120 ethnic groups, each contributing to the country's diverse tapestry. Whether seeking adventure, wildlife, or cultural experiences, Tanzania promises an unforgettable journey.
-
-      </p>
-    </div>
-    <div class="responsive-container-block rightSide">
-      <img class="number1img" src="{% static '/assets/img/cutecheetah.webp' %}">
-      <img class="number2img" src="{% static '/assets/img/city.webp' %}">
-      <img class="number3img" src="{% static '/assets/img/RuahaNationalPark.webp' %}">
-
-      <img class="number7img" src="{% static '/assets/img/elephant.webp' %}">
-      <img class="number6img" src="{% static '/assets/img/zebras.webp' %}">
-    </div>
+    <section style="background-color: black;">
+  <div class="text-container">
+    <h2 align="center" style="color: blue;">Land of Wonders and Warmth</h2>
+    <p align="center" style="color: white;">
+      Tanzania offers unparalleled natural wonders. Explore the unique Ngorongoro Crater, a wildlife haven, <br>
+      and the spice-laden island of Zanzibar, with its pristine beaches and historic Stone Town. <br>
+      Immerse yourself in the traditions of over 120 ethnic groups, each contributing to the country's diverse tapestry.<br>
+      Whether seeking adventure, wildlife, or cultural experiences, Tanzania promises an unforgettable journey.
+    </p>
   </div>
-</div>
+
+  <div class="scroll-container">
+    <img src="{% static '/assets/img/city.webp' %}" alt="Baby Elephant" width="400" height="300">
+    <img src="{% static '/assets/img/RuahaNationalPark.webp' %}" alt="Bird Animal" width="400" height="300">
+    <img src="{% static '/assets/img/cutecheetah.webp' %}" alt="Cute Cheetah" width="400" height="300">
+    <img src="{% static '/assets/img/zebras.webp' %}" alt="Zebras" width="400" height="300">
+    <img src="{% static '/assets/img/beach.webp' %}" alt="Beach" width="400" height="300">
+    <img src="{% static '/assets/img/elephant.webp' %}" alt="Elephant" width="400" height="300">
+  </div>
+</section>
+
   </main>
   <section id="contact" class="contact section">
 

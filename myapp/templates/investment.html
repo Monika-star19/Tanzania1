@@ -38,7 +38,7 @@
   ======================================================== -->
 </head>
 
-<body class="contact-page">
+<body class="projects-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
@@ -59,101 +59,71 @@
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
+
     </div>
   </header>
 
   <main class="main">
 
     <!-- Page Title -->
-    <div class="page-title" data-aos="fade" style="background-image: url('{% static "/assets/img/contactbanner.webp" %}')">
+    <div class="page-title" data-aos="fade" style="background-image: url('{% static '/assets/img/investments.webp' %}');">
+
       <div class="container position-relative">
-        <h1></h1>
 
       </div>
     </div><!-- End Page Title -->
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <!-- Projects Section -->
+    <div class="content">
+      <div class="health-section">
+       <h2> Why Invest in Tanzania?</h2>
+        <p>Tanzania has emerged as a highly attractive destination for investment in recent years, thanks to its stable political environment, robust economic growth, and favorable investment policies. Here’s why investors should consider Tanzania:</p>
+        <ul>
+          <b>1. Strong Economic Growth</b>
+          <li>GDP Growth: Tanzania’s GDP has been growing at an average rate of 6% over the past decade, driven by sectors such as mining, construction, and tourism.
+Diversified Economy: The country has a well-diversified economy, reducing reliance on any single sector, thereby minimizing investment risks.</li><br>
+          <b>2.  Rich Natural Resources</b>
+          <li>Mineral Wealth: Tanzania is rich in natural resources, particularly gold, which accounts for nearly 40% of the country’s exports. It also has significant deposits of coal, iron, and natural gas.
+Agricultural Potential: With over 44 million hectares of arable land, Tanzania offers vast opportunities in agriculture, particularly in crops like coffee, tea, and tobacco.</li><br>
+          <b>3.  Strategic Location</b>
+          <li>Gateway to East Africa: Tanzania’s strategic location makes it a gateway to East African markets. The country’s ports, especially Dar es Salaam, are critical for regional trade.
+Regional Integration: Tanzania is a member of the East African Community (EAC) and the Southern African Development Community (SADC), providing access to a market of over 400 million people.</li><br>
+          <b>4.  Favorable Investment Climate</b>
+          <li>Investment Incentives: Tanzania offers various incentives to investors, including tax holidays, duty-free imports of capital goods, and unrestricted repatriation of profits.
+Legal Framework: The Tanzanian government has established a stable legal framework for investors, ensuring property rights and providing dispute resolution mechanisms.</li><br>
+          <b> 5. Growing Infrastructure</b>
+          <li>Transport and Energy: The government is investing heavily in infrastructure, particularly in transport (railways, roads) and energy, to support industrial growth.
+Special Economic Zones (SEZs): Tanzania has developed SEZs to attract foreign direct investment (FDI) by offering favorable tax rates and streamlined regulations.</li><br>
+          <b> 6. Demographic Advantage</b>
+          <li>Young Population: With over 55% of the population under the age of 25, Tanzania offers a youthful and dynamic workforce that is crucial for long-term economic growth.
+Urbanization: Rapid urbanization is driving demand in real estate, retail, and services, creating numerous investment opportunities.
+Investing in Tanzania offers a blend of high returns, security, and access to a growing market, making it a compelling choice for both seasoned and new investors.</li>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
 
-          <div class="col-lg-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Address</h3>
-              <p>7k Old Port Bell Rd, Bugolobi, Kampala, Uganda</p>
+        </ul>
+
+
             </div>
-          </div><!-- End Info Item -->
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone"></i>
-              <h3>Call Us</h3>
-               <p>
-            <a href="https://wa.me/+91 9166139361" target="_blank" style="text-decoration: none; color: inherit;">
-                +91 9166139361
-            </a>
-        </p>
-            </div>
-          </div><!-- End Info Item -->
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope"></i>
-              <h3>Email Us</h3>
-              <p>info@qubescape.com</p>
-            </div>
-          </div><!-- End Info Item -->
+    </div><!-- End Portfolio Item -->
 
-        </div>
 
-        <div class="row gy-4 mt-1">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8121256.557451141!2d29.682940990628037!3d-6.334757590690396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184b51314869a111%3A0x885a17314bc1c430!2sTanzania!5e0!3m2!1sen!2sin!4v1719656294336!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div><!-- End Google Maps -->
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
-              <div class="row gy-4">
-
-                <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                </div>
-
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                </div>
-
-                <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                  <button type="submit">Send Message</button>
-                </div>
-
-              </div>
-            </form>
-          </div><!-- End Contact Form -->
+          </div><!-- End Portfolio Container -->
 
         </div>
 
       </div>
 
-    </section><!-- /Contact Section -->
+    </section><!-- /Projects Section -->
 
   </main>
 
- <footer id="footer" class="footer">
+
+
+
+  <footer id="footer" class="footer">
 
     <div class="container footer-top">
       <div class="row gy-4">
@@ -226,10 +196,6 @@
 
   <!-- Main JS File -->
   <script src="{% static '/assets/js/main.js' %}"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
 </body>
 
